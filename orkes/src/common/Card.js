@@ -32,7 +32,6 @@ const formatDate = (timestamp) => {
   } ${ampm} IST`;
 };
 const Card = ({ data }) => {
-  console.log({ data });
   const { title, field_photo_image_section, last_update } = data;
   const truncatedTitle =
     title?.length > 58 ? title.slice(0, 58) + "..." : title;
