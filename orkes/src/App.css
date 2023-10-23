@@ -1,0 +1,10 @@
+.app {
+  /* display: flex; */
+  height: 92vh;
+  background: floralwhite;
+  justify-content: center;
+  width: 500px;
+  padding: 10px;
+  margin: 20px;
+  overflow-y: scroll;
+}
